@@ -93,8 +93,12 @@ dados
 # 5 Marlene     58
 # 6  Edésio     65
 
+# Obs.: Enviei inicialmente uma versão com o erro 'dim(data)', resolvi corrigir antes de esquecer, mas registro aqui que o mesmo foi inicialmente
+# enviado com um erro neste ponto, pois anteriormente tinha dado outro nome para o data frame, mas de ultima hora resolvi chama-lo
+# de dados, e quando fui escrever o dim(dados), acabei por escrever dim(data), este erro só foi percebido horas depois ao reler o código.
+
 # verifica as dimensões do banco de dados
-dim(data)
+dim(dados)
 # [1] 6 2
 
 
@@ -119,6 +123,12 @@ vetor04 <- rep(c(1, 2, 3), 3)
 #  [1] 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3
 vetor05 <- rep(c(1,2,3), each=5)
 
+# Lista de vetores (caso resolva rodar todo o código deste script)
+vetor01
+vetor02
+vetor03
+vetor04
+vetor05
 
 
 # -------------------------------------------------------------------------------- #
@@ -157,6 +167,11 @@ matriz02 <- matrix(1:40, nrow=10, ncol=4, byrow=TRUE)
 # [3,]   48  112  176  240
 # [4,]   64  128  192  256
 matriz03 <- matrix(seq(16, 256, by=16), nrow=4, ncol=4)
+
+# Lista de matrizes (caso resolva rodar todo o código deste script)
+matriz01
+matriz02
+matriz03
 
 
 # Divirta-se!
